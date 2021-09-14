@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #106279;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +34,57 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.grilla{
+  border-top: 10px;
+}
+
+
+.grilla .card{
+
+  display: flex;
+  width: 25%;
+  float: left;
+  padding-top: 1em;
+}
+
+.grilla .card img{
+
+  height: 12em;
+}
+
+.form-control-lg{
+  color: #bfc1c5;
+}
+
+.row{
+  background-color: #3f3f3f;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.jumbotron h2{
+  color: #bfc1c5;
+  padding-top: 0.5em;
+}
+
+.logos{
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+}
+
+.card-body a{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media all and (max-width: 700px) {
+  .grilla .card {
+    display: flex;
+    width: 50%;
+    float: left;
+    padding-top: 1em;
   }
 }
